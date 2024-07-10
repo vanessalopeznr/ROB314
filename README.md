@@ -1,5 +1,7 @@
 # ROB314
-Recherche collective avec des drones
+## Recherche collective avec des drones
+
+Dans le cadre de ce projet, l’objectif principal est d’assurer la navigation autonome de deux drones vers des points spécifiques de l’espace (chaque drone ayant pour cible un point différent). Cette démarche vise à simuler l’exploration effectuée par les drones dans un environnement donné. Durant leur vol, les deux drones opéreront simultanément une surveillance visuelle à l’aide de leur caméra pour détecter la présence d’êtres humains. Si l’un des drones détecte un humain, il interrompra son vol pour se positionner à l’endroit où la détection a été effectuée, tout en signalant sa découverte à l’autre drone. Ce dernier se dirigera alors vers le point où se trouve l’humain, reproduisant ainsi le processus visant à fournir des ressources telles que de la nourriture, des médicaments, dans des zones difficiles d’accès, ressources qui initialement ne pourraient pas être transportées par un seul drone
 
 Dans chaque dossier, vous trouverez l'espace de travail de chaque ordinateur. Où télécharger le dossier : catkin_ws sur le bureau.
 
